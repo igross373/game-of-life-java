@@ -7,7 +7,7 @@ import gof.core.DisplayDriver;
 public class GameOfLife {
 
     public static void main(String[] args) throws Exception {
-        System.out.print("Please enter # of iterations to run: ");
+        System.out.print("Please enter num of iterations to run: ");
         Scanner in = new Scanner(System.in);
         int iterations = in.nextInt();
         in.close();
